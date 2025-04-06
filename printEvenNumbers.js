@@ -61,3 +61,17 @@ function printEvenOddsWithFor(arr) {
     }
 }
 printEvenOddsWithFor([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+
+
+
+function printOnEvenIndex(...arr){
+
+    for(let i=0; i<arr.length;i++){
+        if(i%2===0){
+            console.log(i+" is even and value is :"+arr[i])
+        }
+    }
+}
+
+printOnEvenIndex(8,2,3,2,5,3,6,7,4,9)

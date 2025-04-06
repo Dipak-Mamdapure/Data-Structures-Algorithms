@@ -10,3 +10,14 @@ const arrayTraversal = function (...arr) {
 arrayTraversal(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 
 
+function reverseString(str) {
+
+    let temp = ""
+    for (let i = str.length - 1; i >= 0; i--) {
+        temp += str[i]
+    }
+    console.log(temp)
+}
+
+
+reverseString("javascript")
